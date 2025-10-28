@@ -40,8 +40,7 @@ GET	/students/count	200 OK	Obtenir le nombre total d’étudiants
 GET	/students/byYear	200 OK	Répartition des étudiants par année
 📬 Exemples de requêtes
 ➕ Ajouter un étudiant
-json
-POST /students/save
+```json
 {
   "firstName": "Jean",
   "lastName": "Dupont",
@@ -52,6 +51,8 @@ POST /students/save
   "postalCode": "75001",
   "country": "France"
 }
+
+
 Réponse : 201 Created — Étudiant ajouté avec succès 📸 <img width="960" height="510" alt="1" src="https://github.com/user-attachments/assets/fe14964f-914f-4905-8191-68959395ffa4" />
 
 
