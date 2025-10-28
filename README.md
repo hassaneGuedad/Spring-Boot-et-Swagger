@@ -1,4 +1,3 @@
-<img width="960" height="510" alt="3" src="https://github.com/user-attachments/assets/ff00fe12-b1b9-4d1b-a0fa-aa97db7ae738" /># Student Management Application
 
 ## Description
 Cette application est un système de gestion des étudiants.  
