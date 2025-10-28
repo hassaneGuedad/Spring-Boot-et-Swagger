@@ -87,7 +87,12 @@ Réponse : 200 OK — Statistiques par année 📸 <img width="960" height="510"
 | DELETE  | `/students/delete/{id}`    | 204 No Content | Supprimer un étudiant par ID |
 | GET     | `/students/count`          | 200 OK      | Récupérer le nombre total d’étudiants |
 | GET     | `/students/byYear`         | 200 OK      | Récupérer le nombre d’étudiants par année |
+
+
+
 📚 Documentation Swagger
+
+
 La documentation interactive de l’API est disponible à l’adresse suivante : http://localhost:8086/swagger-ui.html Elle permet de visualiser et tester tous les endpoints.
 
 📸 <img width="960" height="510" alt="Cap_swagger" src="https://github.com/user-attachments/assets/c33db5ef-5a76-4f04-850c-2c431fc3bf14" />
