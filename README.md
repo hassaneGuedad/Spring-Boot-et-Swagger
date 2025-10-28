@@ -1,3 +1,4 @@
+# Student Management Application
 
 ## Description
 Cette application est un système de gestion des étudiants.  
@@ -23,9 +24,12 @@ Elle permet de **créer, lire, supprimer et compter des étudiants**, avec un ba
 | GET     | `/students/count`          | 200 OK      | Récupérer le nombre total d’étudiants |
 | GET     | `/students/byYear`         | 200 OK      | Récupérer le nombre d’étudiants par année |
 
-### Exemples de requêtes
+---
 
-#### Ajouter un étudiant (POST `/students/save`)
+## Exemples de requêtes et captures
+
+### Ajouter un étudiant (POST `/students/save`)
+**Requête :**
 ```json
 {
   "firstName": "Jean",
@@ -40,38 +44,35 @@ Elle permet de **créer, lire, supprimer et compter des étudiants**, avec un ba
 Réponse : 201 Created
 
 Étudiant ajouté avec succès
-
-<img width="960" height="510" alt="1" src="https://github.com/user-attachments/assets/4f002565-c8be-4a35-9a69-99eb4b02d75f" />
+<img width="960" height="510" alt="1" src="https://github.com/user-attachments/assets/68335431-c82f-4a7a-87bb-5832009e5d14" />
 
 
 Récupérer tous les étudiants (GET /students/all)
 Réponse : 200 OK
 
 Liste complète des étudiants renvoyée
-
-<img width="960" height="510" alt="2" src="https://github.com/user-attachments/assets/c2a4a08a-036f-4a57-abaa-4a0cd211078f" />
+<img width="960" height="510" alt="2" src="https://github.com/user-attachments/assets/12de8a3d-55a8-4935-ab1a-c9106d90f061" />
 
 
 Supprimer un étudiant (DELETE /students/delete/{id})
 Réponse : 204 No Content
 
 Étudiant supprimé avec succès
-<img width="960" height="510" alt="DELET_4" src="https://github.com/user-attachments/assets/d0e5e1a1-7de8-4695-97fb-e722dbbde945" />
 
+<img width="960" height="510" alt="DELET_4" src="https://github.com/user-attachments/assets/07a1814e-7e27-49ed-aff7-297bda2f5db6" />
 
 Compter les étudiants (GET /students/count)
 Réponse : 200 OK
 
 Nombre total d’étudiants renvoyé
+<img width="960" height="510" alt="3" src="https://github.com/user-attachments/assets/6c4bbaf2-5c4d-44af-94bb-e05a4a88122b" />
 
-<img width="960" height="510" alt="3" src="https://github.com/user-attachments/assets/6ad874dd-e441-4e01-a2c1-7ba5684b5c60" />
 
 Répartition par année (GET /students/byYear)
 Réponse : 200 OK
 
 Répartition des étudiants par année
-
-<img width="960" height="510" alt="byYear_5" src="https://github.com/user-attachments/assets/4aa2f7d0-19d5-49ca-82a7-ad0c609cf8f0" />
+<img width="960" height="510" alt="byYear_5" src="https://github.com/user-attachments/assets/82cf66b5-6857-4db3-b20e-3496000dabaf" />
 
 
 Swagger UI
@@ -80,8 +81,8 @@ La documentation Swagger est disponible à l’URL suivante :
 
 http://localhost:8086/swagger-ui.html
 Elle permet de visualiser et tester tous les endpoints de l’API.
+<img width="960" height="510" alt="Cap_swagger" src="https://github.com/user-attachments/assets/f3dd9164-b0b2-4ab0-8222-145f10eab3d1" />
 
-<img width="960" height="510" alt="Cap_swagger" src="https://github.com/user-attachments/assets/8b399aed-8f78-49b5-ae69-a43ebc76b059" />
 
 Frontend
 Le frontend est développé avec Next.js et React.
@@ -90,11 +91,7 @@ Formulaire de création / édition d’étudiants
 
 Liste des étudiants avec pagination
 
-Connexion en direct au backend via fetch API
-
-<img width="640" height="340" alt="f1" src="https://github.com/user-attachments/assets/83d23152-3872-4eb4-9ef1-504005066e1e" />
-
-<img width="640" height="340" alt="F2" src="https://github.com/user-attachments/assets/c623d86a-8328-4867-a620-0ce13b742f1e" />
+Connexion directe au backend via fetch API
 
 
 Démarrage
@@ -110,6 +107,8 @@ cd front-end
 npm install
 npm run dev
 L’interface sera disponible sur : http://localhost:3022
+<img width="640" height="340" alt="f1" src="https://github.com/user-attachments/assets/4021590d-af33-449a-80cd-b16b3b1a3cb4" />
+<img width="640" height="340" alt="F2" src="https://github.com/user-attachments/assets/b759e939-c892-43f7-9a05-9f9775ee5f93" />
 
 Notes
 Assurez-vous que le backend est démarré avant d’utiliser le frontend.
@@ -117,5 +116,3 @@ Assurez-vous que le backend est démarré avant d’utiliser le frontend.
 Les requêtes CORS sont autorisées pour http://localhost:3022.
 
 Le frontend utilise Vercel Analytics en mode debug pour le développement.
-
-
