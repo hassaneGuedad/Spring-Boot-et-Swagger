@@ -40,7 +40,7 @@ GET	/students/count	200 OK	Obtenir le nombre total d’étudiants
 GET	/students/byYear	200 OK	Répartition des étudiants par année
 📬 Exemples de requêtes
 ➕ Ajouter un étudiant
-```json
+json
 {
   "firstName": "Jean",
   "lastName": "Dupont",
