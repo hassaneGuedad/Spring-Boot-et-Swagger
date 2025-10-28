@@ -1,4 +1,4 @@
-<img width="960" height="510" alt="1" src="https://github.com/user-attachments/assets/1cce931a-1f31-4b63-a64d-c876d70e868c" />🎓 Student Management Application
+🎓 Student Management Application
 🧾 Présentation
 Cette application est un système complet de gestion des étudiants. Elle permet de créer, lister, supprimer et compter les étudiants via une API REST développée en Spring Boot, avec une interface utilisateur moderne construite avec Next.js et React.
 
