@@ -78,7 +78,13 @@ http
 GET /students/byYear
 Réponse : 200 OK — Statistiques par année 📸 <img width="960" height="510" alt="byYear_5" src="https://github.com/user-attachments/assets/a2276047-3c5d-4084-a0fb-67df6417831c" />
 
-
+📋 Tableau récapitulatif des requêtes API
+Action	Méthode	Endpoint	Corps requis	Réponse attendue	Code HTTP
+Ajouter un étudiant	POST	/students/save	✅ Oui	Confirmation d’ajout	201 Created
+Récupérer tous les étudiants	GET	/students/all	❌ Non	Liste des étudiants	200 OK
+Supprimer un étudiant par ID	DELETE	/students/delete/{id}	❌ Non	Aucun contenu	204 No Content
+Compter les étudiants	GET	/students/count	❌ Non	Nombre total	200 OK
+Répartition par année	GET	/students/byYear	❌ Non	Statistiques par année	200 OK
 📚 Documentation Swagger
 La documentation interactive de l’API est disponible à l’adresse suivante : http://localhost:8086/swagger-ui.html Elle permet de visualiser et tester tous les endpoints.
 
